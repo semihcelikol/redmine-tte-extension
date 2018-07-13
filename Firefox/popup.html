@@ -1,0 +1,50 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <title>Popup</title>
+
+    <!-- Cascading Style Sheets -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/custom.css" rel="stylesheet" media="screen">
+</head>
+	
+<body>
+
+    <div class="header-info">
+
+        <div class="pull-left">
+            <a class="btn btn-primary btn-xs" role="button" aria-disabled="true">
+                Today total <span class="badge badge-light"><span id="sumHour"></span></span>
+            </a>
+        </div>
+
+        <div class="pull-right" id="createTimeEntry">
+            <a target="blank" href="#" class="btn btn-success btn-xs" role="button" aria-disabled="true">
+                <span class="glyphicon glyphicon-plus"></span> Time entry
+            </a>
+        </div>
+    </div>
+    
+
+
+
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Project</th>
+                <th>Comment</th>
+                <th>Hours</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <!-- Scripts -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/redmineHelper.js"></script>
+    <script src="js/popup.js"></script>
+</body>
+</html>
