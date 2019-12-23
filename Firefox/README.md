@@ -6,4 +6,4 @@ Download: https://addons.mozilla.org/tr/firefox/addon/redmine-today-s-time-entri
 
 About extension (Turkish): http://semihcelikol.com/firefox-eklenti-redmine-todays-time-entries/
 
-semihcelikol.com
+http://semihcelikol.com/
